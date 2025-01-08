@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 New Vector Ltd
+ * Copyright (c) 2025 New Vector Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -33,9 +33,6 @@ import androidx.compose.ui.res.vectorResource
 import kotlinx.collections.immutable.persistentListOf
 
 object CompoundIcons {
-    @Composable fun Admin(): ImageVector {
-        return ImageVector.vectorResource(R.drawable.ic_compound_admin)
-    }
     @Composable fun ArrowDown(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_arrow_down)
     }
@@ -71,9 +68,6 @@ object CompoundIcons {
     }
     @Composable fun Calendar(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_calendar)
-    }
-    @Composable fun Chart(): ImageVector {
-        return ImageVector.vectorResource(R.drawable.ic_compound_chart)
     }
     @Composable fun Chat(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_chat)
@@ -129,29 +123,17 @@ object CompoundIcons {
     @Composable fun Collapse(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_collapse)
     }
-    @Composable fun Company(): ImageVector {
-        return ImageVector.vectorResource(R.drawable.ic_compound_company)
-    }
     @Composable fun Compose(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_compose)
     }
     @Composable fun Computer(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_computer)
     }
-    @Composable fun Copy(): ImageVector {
-        return ImageVector.vectorResource(R.drawable.ic_compound_copy)
-    }
-    @Composable fun DarkMode(): ImageVector {
-        return ImageVector.vectorResource(R.drawable.ic_compound_dark_mode)
-    }
     @Composable fun Delete(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_delete)
     }
     @Composable fun Devices(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_devices)
-    }
-    @Composable fun Document(): ImageVector {
-        return ImageVector.vectorResource(R.drawable.ic_compound_document)
     }
     @Composable fun Download(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_download)
@@ -170,12 +152,6 @@ object CompoundIcons {
     }
     @Composable fun EditSolid(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_edit_solid)
-    }
-    @Composable fun Email(): ImageVector {
-        return ImageVector.vectorResource(R.drawable.ic_compound_email)
-    }
-    @Composable fun EmailSolid(): ImageVector {
-        return ImageVector.vectorResource(R.drawable.ic_compound_email_solid)
     }
     @Composable fun EndCall(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_end_call)
@@ -222,23 +198,23 @@ object CompoundIcons {
     @Composable fun Group(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_group)
     }
+    @Composable fun HeadphonesOffSolid(): ImageVector {
+        return ImageVector.vectorResource(R.drawable.ic_compound_headphones_off_solid)
+    }
+    @Composable fun HeadphonesSolid(): ImageVector {
+        return ImageVector.vectorResource(R.drawable.ic_compound_headphones_solid)
+    }
     @Composable fun Help(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_help)
     }
     @Composable fun HelpSolid(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_help_solid)
     }
-    @Composable fun History(): ImageVector {
-        return ImageVector.vectorResource(R.drawable.ic_compound_history)
-    }
     @Composable fun Home(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_home)
     }
     @Composable fun HomeSolid(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_home_solid)
-    }
-    @Composable fun Host(): ImageVector {
-        return ImageVector.vectorResource(R.drawable.ic_compound_host)
     }
     @Composable fun Image(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_image)
@@ -420,9 +396,6 @@ object CompoundIcons {
     @Composable fun PresenceSolid8X8(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_presence_solid_8_x_8)
     }
-    @Composable fun PresenceStrikethrough8X8(): ImageVector {
-        return ImageVector.vectorResource(R.drawable.ic_compound_presence_strikethrough_8_x_8)
-    }
     @Composable fun Public(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_public)
     }
@@ -455,12 +428,6 @@ object CompoundIcons {
     }
     @Composable fun Search(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_search)
-    }
-    @Composable fun Send(): ImageVector {
-        return ImageVector.vectorResource(R.drawable.ic_compound_send)
-    }
-    @Composable fun SendSolid(): ImageVector {
-        return ImageVector.vectorResource(R.drawable.ic_compound_send_solid)
     }
     @Composable fun Settings(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_settings)
@@ -518,9 +485,6 @@ object CompoundIcons {
     }
     @Composable fun ThreadsSolid(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_threads_solid)
-    }
-    @Composable fun Time(): ImageVector {
-        return ImageVector.vectorResource(R.drawable.ic_compound_time)
     }
     @Composable fun Underline(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_underline)
@@ -597,9 +561,6 @@ object CompoundIcons {
     @Composable fun VolumeOnSolid(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_volume_on_solid)
     }
-    @Composable fun Warning(): ImageVector {
-        return ImageVector.vectorResource(R.drawable.ic_compound_warning)
-    }
     @Composable fun WebBrowser(): ImageVector {
         return ImageVector.vectorResource(R.drawable.ic_compound_web_browser)
     }
@@ -608,7 +569,6 @@ object CompoundIcons {
     }
 
     val all @Composable get() = persistentListOf<ImageVector>(
-        Admin(),
         ArrowDown(),
         ArrowLeft(),
         ArrowRight(),
@@ -621,7 +581,6 @@ object CompoundIcons {
         Block(),
         Bold(),
         Calendar(),
-        Chart(),
         Chat(),
         ChatNew(),
         ChatProblem(),
@@ -640,22 +599,16 @@ object CompoundIcons {
         CloudSolid(),
         Code(),
         Collapse(),
-        Company(),
         Compose(),
         Computer(),
-        Copy(),
-        DarkMode(),
         Delete(),
         Devices(),
-        Document(),
         Download(),
         DownloadIos(),
         DragGrid(),
         DragList(),
         Edit(),
         EditSolid(),
-        Email(),
-        EmailSolid(),
         EndCall(),
         Error(),
         Expand(),
@@ -671,12 +624,12 @@ object CompoundIcons {
         Forward(),
         Grid(),
         Group(),
+        HeadphonesOffSolid(),
+        HeadphonesSolid(),
         Help(),
         HelpSolid(),
-        History(),
         Home(),
         HomeSolid(),
-        Host(),
         Image(),
         ImageError(),
         IndentDecrease(),
@@ -737,7 +690,6 @@ object CompoundIcons {
         Preferences(),
         PresenceOutline8X8(),
         PresenceSolid8X8(),
-        PresenceStrikethrough8X8(),
         Public(),
         QrCode(),
         Quote(),
@@ -749,8 +701,6 @@ object CompoundIcons {
         Restart(),
         Room(),
         Search(),
-        Send(),
-        SendSolid(),
         Settings(),
         SettingsSolid(),
         Share(),
@@ -770,7 +720,6 @@ object CompoundIcons {
         TextFormatting(),
         Threads(),
         ThreadsSolid(),
-        Time(),
         Underline(),
         Unknown(),
         UnknownSolid(),
@@ -796,13 +745,11 @@ object CompoundIcons {
         VolumeOffSolid(),
         VolumeOn(),
         VolumeOnSolid(),
-        Warning(),
         WebBrowser(),
         Windows(),
     )
 
     val allResIds get() = persistentListOf(
-        R.drawable.ic_compound_admin,
         R.drawable.ic_compound_arrow_down,
         R.drawable.ic_compound_arrow_left,
         R.drawable.ic_compound_arrow_right,
@@ -815,7 +762,6 @@ object CompoundIcons {
         R.drawable.ic_compound_block,
         R.drawable.ic_compound_bold,
         R.drawable.ic_compound_calendar,
-        R.drawable.ic_compound_chart,
         R.drawable.ic_compound_chat,
         R.drawable.ic_compound_chat_new,
         R.drawable.ic_compound_chat_problem,
@@ -834,22 +780,16 @@ object CompoundIcons {
         R.drawable.ic_compound_cloud_solid,
         R.drawable.ic_compound_code,
         R.drawable.ic_compound_collapse,
-        R.drawable.ic_compound_company,
         R.drawable.ic_compound_compose,
         R.drawable.ic_compound_computer,
-        R.drawable.ic_compound_copy,
-        R.drawable.ic_compound_dark_mode,
         R.drawable.ic_compound_delete,
         R.drawable.ic_compound_devices,
-        R.drawable.ic_compound_document,
         R.drawable.ic_compound_download,
         R.drawable.ic_compound_download_ios,
         R.drawable.ic_compound_drag_grid,
         R.drawable.ic_compound_drag_list,
         R.drawable.ic_compound_edit,
         R.drawable.ic_compound_edit_solid,
-        R.drawable.ic_compound_email,
-        R.drawable.ic_compound_email_solid,
         R.drawable.ic_compound_end_call,
         R.drawable.ic_compound_error,
         R.drawable.ic_compound_expand,
@@ -865,12 +805,12 @@ object CompoundIcons {
         R.drawable.ic_compound_forward,
         R.drawable.ic_compound_grid,
         R.drawable.ic_compound_group,
+        R.drawable.ic_compound_headphones_off_solid,
+        R.drawable.ic_compound_headphones_solid,
         R.drawable.ic_compound_help,
         R.drawable.ic_compound_help_solid,
-        R.drawable.ic_compound_history,
         R.drawable.ic_compound_home,
         R.drawable.ic_compound_home_solid,
-        R.drawable.ic_compound_host,
         R.drawable.ic_compound_image,
         R.drawable.ic_compound_image_error,
         R.drawable.ic_compound_indent_decrease,
@@ -931,7 +871,6 @@ object CompoundIcons {
         R.drawable.ic_compound_preferences,
         R.drawable.ic_compound_presence_outline_8_x_8,
         R.drawable.ic_compound_presence_solid_8_x_8,
-        R.drawable.ic_compound_presence_strikethrough_8_x_8,
         R.drawable.ic_compound_public,
         R.drawable.ic_compound_qr_code,
         R.drawable.ic_compound_quote,
@@ -943,8 +882,6 @@ object CompoundIcons {
         R.drawable.ic_compound_restart,
         R.drawable.ic_compound_room,
         R.drawable.ic_compound_search,
-        R.drawable.ic_compound_send,
-        R.drawable.ic_compound_send_solid,
         R.drawable.ic_compound_settings,
         R.drawable.ic_compound_settings_solid,
         R.drawable.ic_compound_share,
@@ -964,7 +901,6 @@ object CompoundIcons {
         R.drawable.ic_compound_text_formatting,
         R.drawable.ic_compound_threads,
         R.drawable.ic_compound_threads_solid,
-        R.drawable.ic_compound_time,
         R.drawable.ic_compound_underline,
         R.drawable.ic_compound_unknown,
         R.drawable.ic_compound_unknown_solid,
@@ -990,7 +926,6 @@ object CompoundIcons {
         R.drawable.ic_compound_volume_off_solid,
         R.drawable.ic_compound_volume_on,
         R.drawable.ic_compound_volume_on_solid,
-        R.drawable.ic_compound_warning,
         R.drawable.ic_compound_web_browser,
         R.drawable.ic_compound_windows,
     )
