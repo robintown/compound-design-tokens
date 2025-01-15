@@ -644,6 +644,62 @@
       "value": "icons/quote.svg",
       "type": "icon"
     },
+    "chart": {
+      "value": "icons/chart.svg",
+      "type": "icon"
+    },
+    "time": {
+      "value": "icons/time.svg",
+      "type": "icon"
+    },
+    "copy": {
+      "value": "icons/copy.svg",
+      "type": "icon"
+    },
+    "history": {
+      "value": "icons/history.svg",
+      "type": "icon"
+    },
+    "document": {
+      "value": "icons/document.svg",
+      "type": "icon"
+    },
+    "admin": {
+      "value": "icons/admin.svg",
+      "type": "icon"
+    },
+    "host": {
+      "value": "icons/host.svg",
+      "type": "icon"
+    },
+    "company": {
+      "value": "icons/company.svg",
+      "type": "icon"
+    },
+    "dark-mode": {
+      "value": "icons/dark-mode.svg",
+      "type": "icon"
+    },
+    "warning": {
+      "value": "icons/warning.svg",
+      "type": "icon"
+    },
+    "email-solid": {
+      "value": "icons/email-solid.svg",
+      "type": "icon"
+    },
+    "email": {
+      "value": "icons/email.svg",
+      "type": "icon"
+    },
+    "send": {
+      "value": "icons/send.svg",
+      "type": "icon"
+    },
+    "send-solid": {
+      "value": "icons/send-solid.svg",
+      "type": "icon"
+    },
     "restart": {
       "value": "icons/restart.svg",
       "type": "icon"
@@ -710,6 +766,10 @@
     },
     "presence-outline-8x8": {
       "value": "icons/presence-outline-8x8.svg",
+      "type": "icon"
+    },
+    "presence-strikethrough-8x8": {
+      "value": "icons/presence-strikethrough-8x8.svg",
       "type": "icon"
     }
   }
